@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+ 
+ class game {
+    public:
+    string guessthenumber;
+    
+ };
+ int main()
+ {
+   cout<<" _____________________ welcome to numbers game_________________________"<< endl;
+   cout<< ".........................guess the numbers..........................." << endl;
+     game number;
+    number.guessthenumber + ".";
+     cout<< "    "<< number.guessthenumber<< endl;
+     
+     int game;
+     cout<< " ENTER THE NUMBERS " << endl;
+     cout<< " [0] [0] [0]"<< endl;
+     cin>> game;
+     
+     if (game<=10){
+         cout<< " congratulation you guess the write  numbers"<< endl;
+     }
+     else{
+         cout<< "oops you select a wronge numbers "<< endl;
+     }
+     
+     
+    
+    
+
+ }
+
+
+\\https://github.com/praveenkumar9767//
